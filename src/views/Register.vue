@@ -1,16 +1,17 @@
 <template>
   <Layout>
     <div class="ui-content">
-      这里写页面内容
-      <h1>{{title}}</h1>
+      <h1>注册页面</h1>
+      <div>这里写页面内容</div>
     </div>
   </Layout>
 </template>
 <script>
 export default {
+  name: 'Register',
   data () {
     return {
-      title: '联系我们'
+      title: '注册页面'
     }
   }
 }
